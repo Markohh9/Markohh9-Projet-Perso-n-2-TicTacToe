@@ -1,0 +1,50 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); </style>
+
+*{ font-family: 'Kanit', sans-serif;
+}
+
+
+body {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    background-color: #e5e5f7;
+opacity: 1;
+background: linear-gradient(135deg, #444cf755 25%, transparent 25%) -12px 0/ 24px 24px, linear-gradient(225deg, #444cf7 25%, transparent 25%) -12px 0/ 24px 24px, linear-gradient(315deg, #444cf755 25%, transparent 25%) 0px 0/ 24px 24px, linear-gradient(45deg, #444cf7 25%, #e5e5f7 25%) 0px 0/ 24px 24px;
+}
+
+.game{
+    width: 480px;
+    height: 490px;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+
+#jeu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.case{
+    border: 1px solid black;
+    height: 100px;
+    line-height: 100px;
+    font-size: 80px;
+}
+
+#recommencer {
+    border-radius: 25px;
+    width: 128px;
+    height: 28px;
+    background-color: aquamarine;
+}
+
+#recommencer:hover {
+    cursor: pointer;
+}
