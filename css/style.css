@@ -9,8 +9,7 @@ body {
     font-family: 'Kanit', sans-serif;
     background-color: #e5e5f7;
 opacity: 1;
-background: linear-gradient(135deg, #444cf755 25%, transparent 25%) -12px 0/ 24px 24px, linear-gradient(225deg, #444cf7 25%, transparent 25%) -12px 0/ 24px 24px, linear-gradient(315deg, #444cf755 25%, transparent 25%) 0px 0/ 24px 24px, linear-gradient(45deg, #444cf7 25%, #e5e5f7 25%) 0px 0/ 24px 24px;
-}
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);}
 
 .game{
     width: 480px;
@@ -42,7 +41,9 @@ background: linear-gradient(135deg, #444cf755 25%, transparent 25%) -12px 0/ 24p
     border-radius: 25px;
     width: 128px;
     height: 28px;
-    background-color: aquamarine;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
 }
 
 #recommencer:hover {
